@@ -1,4 +1,4 @@
-model
+Simulation
 ====
 
 This project implements a cellular automata simulator.
@@ -73,16 +73,9 @@ Known Bugs:
 The feature that should let you click on a cell during a simulation to change its state is buggy. Sometimes
 the cell you click on does not change states but another neighboring cell does instead.
 
-Extra credit:
-
 
 ### Notes
 
 The simulations are generic and work for all shapes. Implementing new simulations setups is pretty easy. 
 You need to make the CSV file with the desired grid (shape, size, neighbor policy, edge policy, etc.) then 
 add a button that maps to that CSV file in the SceneMaker class.
-
-### Impressions
-
-This project was fun and a great learning experience. The project ended up being easier than expected.
-I would've preferred to use XML files than a config file.
